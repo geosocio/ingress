@@ -2,6 +2,7 @@ version: '3'
 services:
   ingress:
     build: ./
+    image: geosocio/ingress
     ports:
       - '8888:80'
     volumes:
